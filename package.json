@@ -1,0 +1,24 @@
+{
+  "name": "reddis",
+  "version": "1.0.0",
+  "description": "\"# node-redis\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolomonBekele/node-redis.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolomonBekele/node-redis/issues"
+  },
+  "homepage": "https://github.com/SolomonBekele/node-redis#readme",
+  "dependencies": {
+    "redis": "^5.5.6"
+  }
+}
