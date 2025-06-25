@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start":"node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/SolomonBekele/node-redis#readme",
   "dependencies": {
+    "ioredis": "^5.6.1",
     "redis": "^5.5.6"
   }
 }
